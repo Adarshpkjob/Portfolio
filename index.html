@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header class="active">
+        <a href="#" class="logo">Adarsh.</a>
+        <i class='bx bx-menu' id='menu-icon'></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+
+    <div class="bars-box active">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+</div>
+    <!-- HomeSection -->
+
+    <section class="home active">
+
+        <div class="home-detail">
+
+            <h1>Adarsh PK</h1>
+            <h2>I'm a
+                <span style="--i:2;" data-text="Full-Stack Developer">Full-Stack Developer</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Motivated and detail-oriented Web Developer skilled in designing responsive, interactive, and scalable web applications. Experienced in
+frontend development using React and TypeScript along with API integration and debugging processes. Proficient in Agile workflows
+and task management using Asana for organized project execution. Known for strong problem-solving ability, adaptability to new
+technologies, and commitment to delivering high-quality, user-focused digital solutions within defined deadlines.
+            </p>
+
+            <div class="btn-sci">
+                <a href="./ADARSH P K (1) (1).pdf" download='adarsh' class="btn">Download CV</a>
+
+                <div class="sci">
+                    <a href="https://github.com/Adarshpkjob"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/adarsh-pk-ba81a3323/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/adarsh.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+
+    <section class="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-code-alt'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Web Development</h3>
+            <p>Specializing in full-stack development, I architect secure, high-performance web applications using technologies like [mention a key skill, e.g., React, Node.js, Python]. From database design to pixel-perfect UI, I deliver comprehensive and reliable solutions.
+
+</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-palette'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>I design with empathy, placing the user at the heart of every decision. My process involves in-depth research, wireframing, and usability testing to create intuitive, accessible, and meaningful experiences that bridge the gap between user needs and business goals.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Resume section -->
+ <section class="resume">
+    <div class="resume-container">
+        <div class="resume-box">
+            <h2>Why Hire Me?</h2>
+            <p class="desc">An expert in the MERN stack and AI, I build modern web applications to deliver exceptional results.</p>
+
+            <button class="resume-btn active">Experience</button>
+            <button class="resume-btn">Education</button>
+            <button class="resume-btn">Skills</button>
+            <button class="resume-btn">About Me</button>
+        </div>
+        <div class="resume-box">
+    <div class="resume-detail experience active">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <p class="desc">Experience building scalable systems at top-tier companies, spanning both backend and full-stack development.</p>
+        <div class="resume-list">
+    <div class="resume-item">
+        <p class="year">2025 - 2026 (Feb - Feb) </p>
+        <h3>Web Developer</h3>
+        <p class="company">Digisqures</p>
+        <p>Developing MERN stack applications with integrated AI features.</p>
+    </div>
+    <div class="resume-item">
+        <p class="year">2024 - 2025 ( Jun - Jan )</p>
+        <h3>Software Intern</h3>
+        <p class="company">KGISL</p>
+        <p>Assisted in building and testing full-stack MERN applications.</p>
+    </div>
+    <div class="resume-item">
+        <p class="year">2024 - 2024 ( Feb - Apr )</p>
+        <h3>Software Intern</h3>
+        <p class="company">KELTRON</p>
+        <p>Contributed to AI/ML projects, focusing on data processing and model implementation.</p>
+    </div>
+</div>
+    </div>
+    <div class="resume-detail education">
+    <h2 class="heading">My <span>Education</span></h2>
+    <p class="desc">A strong computer science foundation from my Master's degree, combined with specialized training in modern, full-stack development.</p>
+    <div class="resume-list">
+    <div class="resume-item">
+        <p class="year">2018 - 2021</p>
+        <h3>BCA</h3>
+        <p class="company">CM College of Arts & Science Wayanad </p>
+        <p>Gained a strong foundation in core computer science, including data structures, algorithms, and programming.</p>
+    </div>
+    <div class="resume-item">
+        <p class="year">2022 - 2024</p>
+        <h3>MCA</h3>
+        <p class="company">Sngce Ernakulam</p>
+        <p>Specialized in advanced web technologies, software engineering, and full-cycle project development.</p>
+    </div>
+    <div class="resume-item">
+        <p class="year">2024 -2025</p>
+        <h3>MERN  and  UI/UX </h3>
+        <p class="company">KGISL Micro College Coimbatore</p>
+        <p>Hands-on training in building full-stack applications with the MERN stack and creating user-centered designs.</p>
+    </div>
+</div>
+</div>
+
+<div class="resume-detail skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <p class="desc">Full-stack development expertise, specializing in the MERN stack to build responsive and scalable web applications.</p>
+    <div class="resume-list">
+    <div class="resume-item">
+        <i class='bx bxl-html5'></i>
+        <span>HTML5</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-css3'></i>
+        <span>CSS3</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-javascript'></i>
+        <span>JavaScript</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-react'></i>
+        <span>React.js</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-vuejs'></i>
+        <span>Vue.js</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-tailwind-css'></i>
+        <span>Tailwind CSS</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-nodejs'></i>
+        <span>Node.js</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx bxl-mongodb'></i>
+        <span>MongoDB</span>
+    </div>
+    <div class="resume-item">
+        <i class='bx'>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+                <path d="M6 4v16h3v-9l6 9h3V4h-3v9l-6-9z"/>
+            </svg>
+        </i>
+        <span>NextJS</span>
+    </div>
+    
+</div>
+</div>
+
+<div class="resume-detail about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <p class="desc">I'm always open to new opportunities and collaborations. Whether you have a question or just want to discuss a project, I'd love to connect. You can reach me here.</p>
+    <div class="resume-list">
+    <div class="resume-item">
+        <p>Name <span>Adarsh PK</span></p>
+    </div>
+    <div class="resume-item">
+        <p>Gender <span>Male</span></p>
+    </div>
+    <div class="resume-item">
+        <p>Age <span>26 Years Old</span></p>
+    </div>
+    <div class="resume-item">
+    <p>City <span>Mananthavady</span></p>
+</div>
+<div class="resume-item">
+    <p>Married<span>Unmarried</span></p>
+</div>
+<div class="resume-item">
+    <p>Nationality <span>India</span></p>
+</div>
+<div class="resume-item">
+    <p>Experience <span> 1.1 year</span></p>
+</div>
+<div class="resume-item">
+    <p>Full Time <span>Available</span></p>
+</div>
+<div class="resume-item">
+    <p>Freelance <span>Available</span></p>
+</div>
+<div class="resume-item">
+    <p>Phone <span>+91 8943381920</span></p>
+</div>
+<div class="resume-item">
+    <p>Email<span>adarshpkjob@gmail.com</span></p>
+</div>
+<div class="resume-item">
+    <p>language<span>English Malayalam Tamil</span></p>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</section>
+
+<!-- portfolio section -->
+
+<section class="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <div class="portfolio-detail active">
+    <p class="numb">01</p>
+    <h3>Jupitor Cli</h3>
+    <p>Created a demo landing page for cli project</p>
+    <div class="tech">
+        <p>HTML5, CSS3, JavaScript, next, farmer motion</p>
+    </div>
+    <div class="live-github">
+        <a href="https://drive.google.com/file/d/1KMI5I_sxo_xwIIiGYjof8iktfwzvrk9x/view?usp=sharing" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>
+</div>
+            <!-- <div class="portfolio-detail">
+                <p class="numb">02</p>
+                 <h3>Jadoo</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+    <div class="tech">
+        <p>HTML5, CSS3, JavaScript</p>
+    </div>
+    <div class="live-github">
+        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>
+            </div> -->
+            <!-- <div class="portfolio-detail">
+    <p class="numb">03</p>
+     <h3>Frontend Project</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+    <div class="tech">
+        <p>HTML5, CSS3, JavaScript</p>
+    </div>
+    <div class="live-github">
+        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>
+</div> -->
+
+<!-- <div class="portfolio-detail">
+    <p class="numb">04</p>
+     <h3>Frontend Project</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+    <div class="tech">
+        <p>HTML5, CSS3, JavaScript</p>
+    </div>
+    <div class="live-github">
+        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>
+</div> -->
+
+<div class="portfolio-detail">
+    <p class="numb">02</p>
+     <h3>Digisqaures</h3>
+    <p>created login page for low code platform project and also creted reusable UI Components</p>
+    <div class="tech">
+        <p>HTML5, CSS3,React,JavaScript</p>
+    </div>
+    <div class="live-github">
+        <a href="https://app.digisquares.com/login" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>
+</div>
+<!-- 
+<div class="portfolio-detail">
+    <p class="numb">06</p>
+     <h3>Frontend Project</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+    <div class="tech">
+        <p>HTML5, CSS3, JavaScript</p>
+    </div>
+    <div class="live-github">
+        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+    </div>  
+</div> -->
+        </div>
+
+        <div class="portfolio-box">
+            <div class="portfolio-carousel">
+    <div class="img-slide">
+        <div class="img-item">
+            <img src="images/Gemini_Generated_Image_hbom4ahbom4ahbom.png">
+        </div>
+        <div class="img-item">
+            <img src="images/Gemini_Generated_Image_nlhmyinlhmyinlhm.png">
+        </div>
+        <!-- <div class="img-item">
+            <img src="images/portfolio3.jpg">
+        </div>
+        <div class="img-item">
+            <img src="images/portfolio4.jpg">
+        </div>
+        <div class="img-item">
+            <img src="images/portfolio5.jpg">
+        </div>
+        <div class="img-item">
+            <img src="images/portfolio6.jpg">
+        </div> -->
+    </div>
+</div>
+<div class="navigation">
+    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+</div>
+            </div>
+    </div>
+</section>
+
+<!-- contact section -->
+ <section class="contact">
+    <div class="contact-container">
+        <div class="contact-box">
+            <h2>Let's Work Together</h2>
+            <p class="desc">Whether you're looking to build an application from scratch, optimize an existing one, or integrate intelligent AI features, I have the technical skills to help you achieve your goals. Let's discuss how I can bring value to your team.</p>
+            <div class="contact-detail">
+    <i class='bx bxs-phone'></i>
+    <div class="detail">
+        <p>Phone</p>
+        <p>(+91) 8943381920</p>
+    </div>
+</div>
+<div class="contact-detail">
+    <i class='bx bxs-envelope'></i>
+    <div class="detail">
+        <p>Email</p>
+        <p>adarshpkjob@gmail.com</p>
+    </div>
+</div>
+<div class="contact-detail">
+    <i class='bx bxs-map'></i>
+    <div class="detail">
+        <p>Address</p>
+        <p>Mananthavady,Wayanad</p>
+    </div>
+</div>
+        </div>
+        <div class="contact-box">
+            <form action="">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <div class="field-box">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Phone Number" required>
+        <input type="text" placeholder="Email Subject" required>
+        <textarea name="" id="" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+</form>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
